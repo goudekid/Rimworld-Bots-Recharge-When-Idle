@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <SoundDef>
+    <defName>MechChargerCharging</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <sustain>True</sustain>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Buildings/Mechanoid/MechCharger/Mech_Charger_Charging_Loop_01a</clipPath>
+          </li>
+        </grains>
+        <volumeRange>0</volumeRange>
+        <distRange>5~20</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

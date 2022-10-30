@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>MechSelfShutdown</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Mechanoid/Mech_SelfShutdown</clipPath>
+          </li>
+        </grains>
+        <volumeRange>0</volumeRange>
+        <distRange>10~20</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
