@@ -53,6 +53,8 @@ namespace FriendlyBotsDontWander
             
             if (Find.TickManager.TicksGame % 625 == 0 
                 && ___currentlyChargingMech != null
+                // don't interrupt militors who are charging, they will just go back to patrolling which isnt a REAL job
+                && ___currentlyChargingMech.kindDef.defName != "Mech_Militor"
                 // don't interrupt a bot if it doesnt have at least 10% more than minimum charge OR 90%, whichever is lower (to account for someone choosing to set a minimum charge >90% for some reason).
                 && ___currentlyChargingMech.needs.energy.CurLevelPercentage > Math.Min(.90f, (___currentlyChargingMech.GetMechControlGroup().mechRechargeThresholds.min + .10f)))
             {
