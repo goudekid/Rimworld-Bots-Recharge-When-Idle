@@ -1,14 +1,19 @@
 <ModMetaData>
-	<name>Bots charge when idle</name>
-	<author>goog</author>
-    <packageId>goog.BotsChargeWhenIdle</packageId>
+	<name>Bots Charge When Idle</name>
+	<author>doug</author>
+	<packageId>doug.BotsChargeWhenIdle</packageId>
 	<supportedVersions>
-		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>
-      Prevents friendly mechanoids from wandering around when idle - they instead go to any available charging stations or go dormant (mod respects max charge levels from mech groups)
-      Only applies to bots set to "work" order from their mech group, escort bots and bots already set to charge or dormancy will be unaffected. 
-      Also does not appy to militors as their wandering seems more thematically appropriate.
+		Continued from https://steamcommunity.com/sharedfiles/filedetails/?id=2881360960
+		
+		Github link is https://github.com/dougbenham/Rimworld-BotsChargeWhenIdle
+		
+		Prevents friendly mechanoids from wandering around when idle - they instead go to any available charging stations or go dormant (mod respects max charge levels from mech groups)
+		
+		Only applies to bots set to "work" order from their mech group, escort bots and bots already set to charge or dormancy will be unaffected. 
+		
+		Also does not appy to militors as their wandering seems more thematically appropriate.
     </description>
-	<url>https://steamcommunity.com/id/gUwUg/myworkshopfiles/?appid=294100</url>
 </ModMetaData>
